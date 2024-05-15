@@ -9,7 +9,7 @@ function Contact(props) {
               {
                 props.contactSection.map((item,index) => {
                     return (
-                      <div class="footer-section">
+                      <div className="footer-section">
                         {parse(item.content)}
                       </div>
                       

@@ -3,6 +3,7 @@ import Footer from '../components/Footer'
 import Tutors from '../components/Tutors'
 import Partners from '../components/Partners'
 import Contact from '../components/Contact'
+import Walink from '../components/Walink'
 
 import parse from 'html-react-parser'
 import '../styles/Home.css'
@@ -54,6 +55,12 @@ function Home() {
             </div>
         </section>
 
+        {/* walink */}
+        <section>
+            <div className="tengah">
+                <Walink />
+            </div>
+        </section>
 
     </div>
 
