@@ -4,6 +4,7 @@ import Tutors from '../components/Tutors'
 import Partners from '../components/Partners'
 import Contact from '../components/Contact'
 import Walink from '../components/Walink'
+import Walogo from '../components/Walogo';
 
 import parse from 'html-react-parser'
 import '../styles/Home.css'
@@ -63,7 +64,8 @@ function Home() {
         </section>
 
     </div>
-
+    
+    {/* <Walogo /> */}
     {/* contact */}
     <Contact contactSection={contactSection}/>
     
